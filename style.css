@@ -1,14 +1,25 @@
 /* style.css */
 .todo{
-    font-size: 50px;
+    font-size: 25px;
     display: inline;
     padding: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+dialog{
+    padding: 100px;
 }
 .btn{
+    position: absolute;
+    left: 5px;
+    top: 0;
+    margin-top: 3px;
     display: inline-block;
     display: inline;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+}
+.deadline{
+    width: 200px;
 }
 .submit{
     border-radius: 10px;
@@ -20,6 +31,7 @@
     font-size: 20px;
 }
 input{
+    font-family: 'Noto Sans KR', sans-serif;
     display: inline-block;
     border-radius: 10px;
     text-align: center;
@@ -29,6 +41,7 @@ input{
     height: 50px;
 }
 h1{
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 50px;
     margin-top: 0;
     padding: 25px;
@@ -39,12 +52,13 @@ body{
     text-align: center;
 }
 .TodoForm{
-    margin: 10px;
+    position: relative;
+    border: 1px solid lightgray;
 }
 .todos{
     display: inline-block;
     display: inline-block;
     background-color: white;
-    width: 400px;
-    border-radius: 30px;
+    width: 350px;
+    margin-top: 10px;
 }
